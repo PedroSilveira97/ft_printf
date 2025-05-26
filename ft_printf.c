@@ -46,7 +46,10 @@ int	ft_printf(const char *format, ...)
 		if (format[i] == '%')
 			len = len + ft_formats(format[i + 1], args);
 		else
+		{
 			ft_putchar_fd(format[i], 1);
+			len++;
+		}
 		i++;
 	}
 	va_end(args);

@@ -11,6 +11,7 @@
 /* ************************************************************************** */
 
 #include "../libft/libft.h"
+#include "../ft_printf.h"
 
 int	ft_hex(unsigned long num)
 {
@@ -33,6 +34,8 @@ int	ft_print_ptr(void *ptr)
 
 	address = (unsigned long)ptr;
 	len = 2;
+	if (!ptr)
+		return (ft_print_str("(nil)"));
 	ft_putstr_fd("0x", 1);
 	if (address == 0)
 	{
