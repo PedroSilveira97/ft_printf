@@ -6,7 +6,7 @@ CFLAGS = -Wall -Wextra -Werror
 SRC_DIR = .
 SRC =	$(SRC_DIR)/Sources/ft_print_char.c \
 		$(SRC_DIR)/Sources/ft_print_decimal.c \
-		$(SRC_DIR)/Sources/ft_print_hex.C \
+		$(SRC_DIR)/Sources/ft_print_hex.c \
 		$(SRC_DIR)/Sources/ft_print_nbr.c \
 		$(SRC_DIR)/Sources/ft_print_percent.c \
 		$(SRC_DIR)/Sources/ft_print_ptr.c \
