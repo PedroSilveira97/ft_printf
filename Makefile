@@ -13,27 +13,23 @@ SRC =	$(SRC_DIR)/Sources/ft_print_char.c \
 		$(SRC_DIR)/Sources/ft_print_str.c \
 		$(SRC_DIR)/Sources/ft_print_unsigned.c \
 		$(SRC_DIR)/Sources/ft_printf.c \
-OBJ_DIR = obj
 
 OBJ = $(SRC:.c=.o)
 
 LIBFT_DIR = libft
 LIBFT_A = $(LIBFT_DIR)/libft.a
 
-all: $(NAME)
-
-$(NAME): $(OBJ) $(LIBFT_A)
-	cp $(LIBFT_A) temp_libft.a
-	ar x temp_libft.a
-	ar rcs $(NAME) $(OBJ) *.o
-	ranlib $(NAME)
-	rm -f temp_libft.a *.o
+all: $(LIBFT_A) $(NAME)
 
 $(LIBFT_A):
 	$(MAKE) -C $(LIBFT_DIR)
 
+$(NAME): $(OBJ) $(LIBFT_A)
+	cp $(LIBFT_A) $(NAME)
+	ar rcs $(NAME) $(OBJ)
+
 clean:
-	rm -rf $(OBJ)
+	rm -f $(OBJ)
 	$(MAKE) -C $(LIBFT_DIR) clean
 
 fclean: clean
