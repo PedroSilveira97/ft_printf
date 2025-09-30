@@ -6,11 +6,10 @@
 /*   By: ptavares <ptavares@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/09 11:03:00 by ptavares          #+#    #+#             */
-/*   Updated: 2025/05/13 22:57:58 by pedrotrsilvei    ###   ########.fr       */
+/*   Updated: 2025/09/29 15:36:27 by ptavares         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../libft/libft.h"
 #include "../ft_printf.h"
 
 int	ft_formats(char specifier, va_list args, ...)

@@ -6,11 +6,10 @@
 /*   By: ptavares <ptavares@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/13 17:10:43 by ptavares          #+#    #+#             */
-/*   Updated: 2025/05/13 22:59:34 by pedrotrsilvei    ###   ########.fr       */
+/*   Updated: 2025/09/29 15:36:16 by ptavares         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../libft/libft.h"
 #include "../ft_printf.h"
 
 int	ft_hex(unsigned long num)

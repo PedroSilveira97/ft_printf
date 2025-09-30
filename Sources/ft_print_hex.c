@@ -6,11 +6,11 @@
 /*   By: ptavares <ptavares@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/13 19:44:33 by ptavares          #+#    #+#             */
-/*   Updated: 2025/05/13 23:01:48 by pedrotrsilvei    ###   ########.fr       */
+/*   Updated: 2025/09/29 15:36:01 by ptavares         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../libft/libft.h"
+#include "../ft_printf.h"
 
 static int	ft_put_hex(unsigned int num, char *base)
 {

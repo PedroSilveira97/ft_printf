@@ -1,4 +1,4 @@
-NAME = libftprintf.a
+NAME = ft_printf.a
 
 CC = cc
 CFLAGS = -Wall -Wextra -Werror
@@ -16,7 +16,7 @@ SRC =	$(SRC_DIR)/Sources/ft_print_char.c \
 
 OBJ = $(SRC:.c=.o)
 
-LIBFT_DIR = libft
+LIBFT_DIR = ../libft
 LIBFT_A = $(LIBFT_DIR)/libft.a
 
 all: $(LIBFT_A) $(NAME)

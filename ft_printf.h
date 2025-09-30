@@ -6,7 +6,7 @@
 /*   By: ptavares <ptavares@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/09 12:49:44 by ptavares          #+#    #+#             */
-/*   Updated: 2025/05/13 23:21:57 by pedrotrsilvei    ###   ########.fr       */
+/*   Updated: 2025/09/29 15:35:14 by ptavares         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 # define FT_PRINTF_H
 
 # include <stdarg.h>
-# include "libft/libft.h"
+# include "../libft/libft.h"
 
 // ft_printf function
 int	ft_printf(const char *format, ...);

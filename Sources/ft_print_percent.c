@@ -6,11 +6,11 @@
 /*   By: ptavares <ptavares@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/13 20:12:01 by ptavares          #+#    #+#             */
-/*   Updated: 2025/05/13 23:18:30 by pedrotrsilvei    ###   ########.fr       */
+/*   Updated: 2025/09/29 15:36:10 by ptavares         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../libft/libft.h"
+#include "../ft_printf.h"
 
 int	ft_print_percent(void)
 {

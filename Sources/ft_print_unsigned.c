@@ -6,11 +6,11 @@
 /*   By: ptavares <ptavares@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/13 19:55:30 by ptavares          #+#    #+#             */
-/*   Updated: 2025/05/13 23:00:09 by pedrotrsilvei    ###   ########.fr       */
+/*   Updated: 2025/09/29 15:36:22 by ptavares         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../libft/libft.h"
+#include "../ft_printf.h"
 
 static char	*ft_utoa(unsigned int n)
 {
